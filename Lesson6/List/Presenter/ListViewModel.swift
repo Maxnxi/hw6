@@ -1,8 +1,8 @@
 //
-//  Service.swift
+//  ListViewModel.swift
 //  Lesson6
 //
-//  Created by Ponomarev Maksim on 29.08.2022.
+//  Created by Maksim Ponomarev on 05.04.2022.
 //  Copyright © 2022 Alex Apriamashvili. All rights reserved.
 //
 

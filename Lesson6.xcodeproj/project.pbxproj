@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0505810E28BD10220009EB16 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505810D28BD10220009EB16 /* ListInteractor.swift */; };
+		0505811128BD10940009EB16 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505811028BD10940009EB16 /* ListRouter.swift */; };
+		0505811328BD12400009EB16 /* ListAssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505811228BD12400009EB16 /* ListAssemblyTests.swift */; };
+		0505811B28BD129B0009EB16 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505811828BD129B0009EB16 /* ListViewModel.swift */; };
+		0505811C28BD129B0009EB16 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505811928BD129B0009EB16 /* List.swift */; };
+		0505811D28BD129B0009EB16 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505811A28BD129B0009EB16 /* ListPresenter.swift */; };
+		0505812128BD13070009EB16 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505811F28BD13070009EB16 /* Model.swift */; };
+		0505812228BD13070009EB16 /* ModelStubFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505812028BD13070009EB16 /* ModelStubFactory.swift */; };
+		0505812528BD138E0009EB16 /* ListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505812428BD138E0009EB16 /* ListAssembly.swift */; };
+		0505812928BD18590009EB16 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505812828BD18590009EB16 /* ListViewModel.swift */; };
+		0505812B28BD19C00009EB16 /* ListViewDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505812A28BD19C00009EB16 /* ListViewDataHandler.swift */; };
+		0570D41D28BCECCC0067A645 /* ArtistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570D41C28BCECCC0067A645 /* ArtistService.swift */; };
+		05817FBD28BCA521005AC5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CE267821D73D4400BCE908 /* Main.storyboard */; };
 		58CE267721D73D4400BCE908 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CE267621D73D4400BCE908 /* ListViewController.swift */; };
 		58CE267C21D73D4500BCE908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CE267B21D73D4500BCE908 /* Assets.xcassets */; };
 		58CE267F21D73D4500BCE908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CE267D21D73D4500BCE908 /* LaunchScreen.storyboard */; };
@@ -22,7 +35,6 @@
 		58CE26B021D76BAA00BCE908 /* DeatailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CE26AF21D76BAA00BCE908 /* DeatailTests.swift */; };
 		58CE26B221D76D9400BCE908 /* DetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CE26B121D76D9400BCE908 /* DetailPresenterTests.swift */; };
 		B0CE1290242FA55A00211275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CE267421D73D4400BCE908 /* AppDelegate.swift */; };
-		B0CE1291242FA65F00211275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CE267821D73D4400BCE908 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0505810D28BD10220009EB16 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		0505811028BD10940009EB16 /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		0505811228BD12400009EB16 /* ListAssemblyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAssemblyTests.swift; sourceTree = "<group>"; };
+		0505811828BD129B0009EB16 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		0505811928BD129B0009EB16 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = List.swift; path = "../../../../../../../../../Volumes/SN32/Docs/обучениеGeekBrains/23.Подготовка к собеседованию/6.Lesson/Lesson6/Lesson6/List/Presenter/List.swift"; sourceTree = "<group>"; };
+		0505811A28BD129B0009EB16 /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		0505811F28BD13070009EB16 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0505812028BD13070009EB16 /* ModelStubFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelStubFactory.swift; sourceTree = "<group>"; };
+		0505812428BD138E0009EB16 /* ListAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAssembly.swift; sourceTree = "<group>"; };
+		0505812828BD18590009EB16 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		0505812A28BD19C00009EB16 /* ListViewDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDataHandler.swift; sourceTree = "<group>"; };
+		0570D41C28BCECCC0067A645 /* ArtistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistService.swift; sourceTree = "<group>"; };
 		58CE267121D73D4400BCE908 /* Lesson6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CE267421D73D4400BCE908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58CE267621D73D4400BCE908 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +100,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0505810C28BD100F0009EB16 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0505810D28BD10220009EB16 /* ListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0505810F28BD10890009EB16 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0505811028BD10940009EB16 /* ListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0505811E28BD12EB0009EB16 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0505811F28BD13070009EB16 /* Model.swift */,
+				0505812028BD13070009EB16 /* ModelStubFactory.swift */,
+				0505812828BD18590009EB16 /* ListViewModel.swift */,
+				0505812A28BD19C00009EB16 /* ListViewDataHandler.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0505812328BD13780009EB16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58CE267621D73D4400BCE908 /* ListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0570D41B28BCECAE0067A645 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0570D41C28BCECCC0067A645 /* ArtistService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0570D41E28BCED0C0067A645 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0505811928BD129B0009EB16 /* List.swift */,
+				0505811A28BD129B0009EB16 /* ListPresenter.swift */,
+				0505811828BD129B0009EB16 /* ListViewModel.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		58CE266821D73D4400BCE908 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				58CE267421D73D4400BCE908 /* AppDelegate.swift */,
+				0570D41B28BCECAE0067A645 /* Service */,
 				58CE269521D73F9000BCE908 /* Detail */,
 				58CE269421D73F9000BCE908 /* List */,
 				58CE269621D73FB700BCE908 /* Resources */,
@@ -110,6 +188,7 @@
 			children = (
 				58CE26AF21D76BAA00BCE908 /* DeatailTests.swift */,
 				58CE26B121D76D9400BCE908 /* DetailPresenterTests.swift */,
+				0505811228BD12400009EB16 /* ListAssemblyTests.swift */,
 				58CE268B21D73D4500BCE908 /* Info.plist */,
 			);
 			path = Lesson6Tests;
@@ -118,7 +197,12 @@
 		58CE269421D73F9000BCE908 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				58CE267621D73D4400BCE908 /* ListViewController.swift */,
+				0505812428BD138E0009EB16 /* ListAssembly.swift */,
+				0505812328BD13780009EB16 /* View */,
+				0505811E28BD12EB0009EB16 /* Entity */,
+				0505810F28BD10890009EB16 /* Router */,
+				0505810C28BD100F0009EB16 /* Interactor */,
+				0570D41E28BCED0C0067A645 /* Presenter */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -263,7 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0CE1291242FA65F00211275 /* Main.storyboard in Resources */,
+				05817FBD28BCA521005AC5F0 /* Main.storyboard in Resources */,
 				58CE267F21D73D4500BCE908 /* LaunchScreen.storyboard in Resources */,
 				58CE267C21D73D4500BCE908 /* Assets.xcassets in Resources */,
 			);
@@ -283,13 +367,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0505810E28BD10220009EB16 /* ListInteractor.swift in Sources */,
 				B0CE1290242FA55A00211275 /* AppDelegate.swift in Sources */,
+				0505812928BD18590009EB16 /* ListViewModel.swift in Sources */,
+				0505812228BD13070009EB16 /* ModelStubFactory.swift in Sources */,
 				58CE267721D73D4400BCE908 /* ListViewController.swift in Sources */,
 				58CE26A821D752F000BCE908 /* DetailRouter.swift in Sources */,
 				58CE26A221D752CE00BCE908 /* DetailViewController.swift in Sources */,
 				58CE26AA21D7570300BCE908 /* DetailViewModel.swift in Sources */,
+				0505811D28BD129B0009EB16 /* ListPresenter.swift in Sources */,
+				0570D41D28BCECCC0067A645 /* ArtistService.swift in Sources */,
+				0505812528BD138E0009EB16 /* ListAssembly.swift in Sources */,
+				0505811128BD10940009EB16 /* ListRouter.swift in Sources */,
 				58CE269C21D751D300BCE908 /* DetailAssembly.swift in Sources */,
+				0505811C28BD129B0009EB16 /* List.swift in Sources */,
 				58CE26A621D752E600BCE908 /* DetailInteractor.swift in Sources */,
+				0505812B28BD19C00009EB16 /* ListViewDataHandler.swift in Sources */,
+				0505811B28BD129B0009EB16 /* ListViewModel.swift in Sources */,
+				0505812128BD13070009EB16 /* Model.swift in Sources */,
 				58CE26AE21D7683C00BCE908 /* HeaderView.swift in Sources */,
 				58CE269A21D750FA00BCE908 /* DetailModule.swift in Sources */,
 				58CE26AC21D75C9A00BCE908 /* SongCell.swift in Sources */,
@@ -302,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58CE26B221D76D9400BCE908 /* DetailPresenterTests.swift in Sources */,
+				0505811328BD12400009EB16 /* ListAssemblyTests.swift in Sources */,
 				58CE26B021D76BAA00BCE908 /* DeatailTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,7 +25,7 @@ protocol DetailInteractorInput {
 
 protocol DetailInteractorOutput: class {
 
-  func presentDetails(for artist: Artist)
+    func presentDetails(for artist: Model.Artist)
 }
 
 protocol DetailRouterInput {}

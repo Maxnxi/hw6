@@ -1,5 +1,5 @@
 //
-//  List.swift
+//  ListViewModel.swift
 //  Lesson6
 //
 //  Created by Ponomarev Maksim on 29.08.2022.
@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct ListViewModel {
+    let artist: Model.Artist
+}

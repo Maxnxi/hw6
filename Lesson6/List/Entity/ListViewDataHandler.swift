@@ -1,5 +1,5 @@
 //
-//  Presenter.swift
+//  ListViewDataHandler.swift
 //  Lesson6
 //
 //  Created by Ponomarev Maksim on 29.08.2022.
@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct ListViewDataHandler {
+    
+    
+    static let artistCellIdentifier = "cell"
+    
+    
+}
